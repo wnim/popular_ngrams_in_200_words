@@ -27,7 +27,7 @@ class FrequentWordLoader:
         self.m_word_list = []
 
     def load_word_list(self):
-        self.m_word_list = local_file_to_list("words2.txt")
+        self.m_word_list = local_file_to_list("words.txt")
 
     def get_word_list(self):
         return self.m_word_list
